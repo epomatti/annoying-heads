@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          So annoying!
+          All over the viewport!
         </h1>
       </main>
 

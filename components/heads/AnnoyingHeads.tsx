@@ -11,7 +11,7 @@ const AnnoyingHeads = () => {
 
   const [trigger, setTrigger] = useState(0);
   useEffect(() => {
-    const time = Math.floor(Math.random() * 1000) + 3000;
+    const time = 2000;
     setTimeout(() => {
       setTrigger(trigger + 1);
       setFirstTime(false);
