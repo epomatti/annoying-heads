@@ -1,0 +1,36 @@
+.trump {
+  position: absolute;
+  animation: look 2s linear;
+  animation-timing-function: ease-in;
+  left: -120px;
+  top: 45%;
+  transform: rotate(45deg);
+}
+
+@keyframes look {
+  0% {
+    left: -120px;
+  }
+
+  10% {
+    left: -45px;
+  }
+
+  90% {
+    left: -45px;
+  }
+
+  100% {
+    left: -120px;
+  }
+}
+
+.hidden {
+  position: absolute;
+  visibility: hidden;
+}
+
+.visible {
+  position: absolute;
+  visibility: visible;
+}
